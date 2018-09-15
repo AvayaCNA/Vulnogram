@@ -1,19 +1,19 @@
 module.exports = {
 
     // The Mongodb URL where CVE entries and users are stored.
-    database: 'mongodb://vulnogram:Use a long & strong Password@localhost:27017/vulnogram',
+    database: 'mongodb://vulnogram:P$$tRul3s!@localhost:27017/vulnogram',
 
     // Name of the organization that should be used in page titles etc.,
-    orgName: 'Example Org',
+    orgName: 'Avaya',
 
     // Name of the group that should be used in page titles etc.,
-    groupName: 'Security Incident Response Team',
+    groupName: 'Product Security Support Team',
 
     //CNA contact address
-    contact: 'sirt@example.net',
+    contact: 'securityalerts@avaya.com',
 
     classification: 'Confidential INTERNAL USE ONLY',
-    copyright: '© Example Org',
+    copyright: '© 2018 Avaya, Inc',
 
     // Uncomment this line and set a random string to allow unauthenticated access to draft CVE entries that are in review-ready or publish-ready state via /review/<token>/ or /review/<token>/CVE-ID
     // This may be useful to share a link to the draft for internal reviews and only those with the link have access to the drafts.    
@@ -24,8 +24,8 @@ module.exports = {
     serverPort: 3555,
     basedir: '/',
     mitreURL: 'https://cve.mitre.org/cgi-bin/cvename.cgi?name=',
-    defectURL: 'https://example.net/internal/bugs/',
-    publicDefectURL: 'https://example.net/bugs/',
+    defectURL: 'https://jira.forge.avaya.com/',
+    publicDefectURL: 'https://support.avaya.com/security/',
     // ACE editor
     ace: 'https://cdnjs.cloudflare.com/ajax/libs/ace/1.2.8/ace.js',
     aceHash: "sha384-sVVk7tngixhF2/zKU0IYtVvpuVYLTwt9srAn1ZjLJeEWKh9AebgDI+PD3USZfpBH",
